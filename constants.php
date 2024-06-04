@@ -204,7 +204,7 @@ define( 'AI1WM_SUPPORT_EMAIL', 'support@servmask.com' );
 define( 'AI1WM_MAX_FILE_SIZE', 5368709120); 
 
 // ==================
-// = Max Chunk Size =
+// = Max Chunk Size =   Modificado
 // ==================
 define( 'AI1WM_MAX_CHUNK_SIZE', 10485760 );
 
