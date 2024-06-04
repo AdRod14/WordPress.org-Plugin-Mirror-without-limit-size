@@ -1,4 +1,12 @@
 <?php
+
+ini_set('upload_max_filesize', '10000M');
+ini_set('post_max_size', '10000M');
+ini_set('max_execution_time', '300');
+ini_set('max_input_time', '300');
+ini_set('memory_limit', '512M');
+
+
 /**
  * Copyright (C) 2014 ServMask Inc.
  *
@@ -193,17 +201,17 @@ define( 'AI1WM_SUPPORT_EMAIL', 'support@servmask.com' );
 // =================
 // = Max File Size = Modificado
 // =================
-define( 'AI1WM_MAX_FILE_SIZE', 10737418240 );
+define( 'AI1WM_MAX_FILE_SIZE', 5368709120); 
 
 // ==================
 // = Max Chunk Size =
 // ==================
-define( 'AI1WM_MAX_CHUNK_SIZE', 5242880 );
+define( 'AI1WM_MAX_CHUNK_SIZE', 10485760 );
 
 // =====================
 // = Max Chunk Retries =
 // =====================
-define( 'AI1WM_MAX_CHUNK_RETRIES', 10 );
+define( 'AI1WM_MAX_CHUNK_RETRIES', 20 );
 
 // ===========================
 // = WP_CONTENT_DIR Constant =
